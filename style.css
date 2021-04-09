@@ -1,0 +1,47 @@
+header{
+    font-family: futura;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+  
+}
+
+#turnDisplay{
+    font-family: futura;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#gameBoard{
+    height: 25em;
+    width: 25em;
+    margin: 45px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.boardSquare{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: black;
+    outline-style: solid;
+    outline-width: 1px;
+    text-align: center;
+    font-family: futura;
+    font-size: 90px;
+}
+
+button{
+    font-family: futura;
+    font-weight: 100;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 0%;
+    border-width: 1px;
+    padding: 5px;
+}
